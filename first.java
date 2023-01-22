@@ -8,7 +8,7 @@ public class first {
         System.out.print(" Enter 0 for rock,1 for scissor,2 for paper: ");
 
         int user = sc.nextInt();
-        int comp = sc.nextInt();
+        int comp;
 
         comp = (int)(Math.random() * (2));
         System.out.println(comp);
